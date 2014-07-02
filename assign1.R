@@ -1,4 +1,4 @@
-setwd("~/Desktop/Coursera/Reproducible research spring2014 JHU/project1")
+setwd("~/Desktop/Coursera/Reproducible research spring2014 JHU/RepData_PeerAssessment1")
 
 data <- read.csv("activity.csv")
 data$date <- as.Date(data$date,"%Y-%m-%d")
