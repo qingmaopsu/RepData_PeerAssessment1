@@ -1,7 +1,12 @@
 # Reproducible Research: Peer Assessment 1
 
+## Set echo=TRUE for all chuncks to show R codes in markdown
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ```{r set_directory, echo = FALSE}
-setwd("~/Desktop/Coursera/Reproducible research spring2014 JHU/RepData_PeerAssessment1")
+setwd("~/Desktop/coursera/JHU_R/reproducible_research/week2/assignment/RepData_PeerAssessment1")
 ```
 
 ## Loading and preprocessing the data
